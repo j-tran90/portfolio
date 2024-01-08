@@ -7,9 +7,15 @@ function Home() {
   return (
     <>
       <Hero />
-      <ProjectCards />
-      <Skills />
-      <About />
+      <div id="projects">
+        <ProjectCards />
+      </div>
+      <div id="skills">
+        <Skills />
+      </div>
+      <div id="about">
+        <About />
+      </div>
     </>
   );
 }
