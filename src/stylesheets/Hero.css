@@ -1,0 +1,35 @@
+.crop {
+  overflow: hidden;
+  max-height: 50vh;
+}
+
+.crop img {
+  height: 100%;
+}
+
+.carousel-caption {
+  top: 10%;
+  bottom: auto;
+}
+
+@media only screen and (max-width: 500px) {
+  .carousel-caption h1 {
+    font-size: 2.5rem;
+  }
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+  .navbar-custom {
+    padding-top: 0;
+  }
+  .button {
+    display: none;
+  }
+  .crop {
+    height: 50vh;
+  }
+
+  .crop img {
+    height: 100%;
+  }
+}

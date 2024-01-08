@@ -1,0 +1,12 @@
+.navbar-custom {
+  padding-top: 3em;
+}
+
+.navbar a {
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-custom {
+    padding-top: 1em;
+  }
+}

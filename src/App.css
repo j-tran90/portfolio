@@ -1,0 +1,15 @@
+#root {
+  margin: 0 auto;
+}
+* {
+  border: 0px solid red;
+}
+
+main {
+  flex-grow: 1;
+  min-height: 100vh;
+}
+
+html {
+  height: 100%;
+}
