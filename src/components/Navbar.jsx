@@ -22,13 +22,46 @@ function NavBar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav ms-auto">
-              <a
-                className="nav-link active"
-                aria-current="page"
-                href="/#projects"
-              >
-                Projects
-              </a>
+              <li className="nav-item dropdown">
+                <a
+                  className="nav-link dropdown-toggle active"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Projects
+                </a>
+                <ul
+                  className="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a
+                      className="dropdown-item"
+                      href="https://glamorous-tan-slacks.cyclic.app/"
+                    >
+                      CourierTek
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#">
+                      Sea Shell
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#">
+                      Porsche Fanpage
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#">
+                      Tix
+                    </a>
+                  </li>
+                </ul>
+              </li>
               <a className="nav-link" href="/#skills">
                 Skills
               </a>
