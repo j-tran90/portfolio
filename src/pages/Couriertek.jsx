@@ -13,22 +13,23 @@ export default function Couriertek() {
         <p className="display-6 pb-2">Overview</p>
         <p>
           <ul>
-            Our task was to produce a lightweight webpage that will promote the
-            brand and product for when the application is ready for launch. The
-            design was determined by the client. The product descriptions were
-            written by us. It was important to the client that the webpage is
-            optimized for at least mobile usuage since CourierTek itself is a
-            mobile-first platform.
-            <div className="text-center p-5">
-              <a
-                type="button"
-                className="btn btn-warning fw-bold"
-                href="                https://glamorous-tan-slacks.cyclic.app/"
-              >
-                Visit CourierTek
-              </a>
-            </div>
+            The client requested a lightweight webpage that will serve to
+            promote the brand and product for when the application launches. I
+            worked together with the client on how to layout the products
+            information. I was also tasked to write out the product description
+            receiving a thorough demo of the product. It was important to the
+            client that the webpage is optimized for at least mobile usuage
+            since CourierTek itself is a mobile-first platform.
           </ul>
+          <div className="text-center p-5">
+            <a
+              type="button"
+              className="btn btn-warning fw-bold"
+              href="                https://glamorous-tan-slacks.cyclic.app/"
+            >
+              Visit CourierTek
+            </a>
+          </div>
         </p>
         <p className="display-6 pb-2">Technology Stack</p>
         <div className="row">

@@ -9,10 +9,7 @@ function ProjectCards() {
           <div className="col col-md-6">
             <figure className="effect-oscar">
               <a className="nav-link" href="/couriertek">
-                <img
-                  src="https://www.topgear.com/sites/default/files/images/cars-road-test/carousel/2020/05/a7d05bfa8da648f8814de1478e95ac89/911_turbos_silver057.jpg"
-                  alt="img09"
-                />
+                <img src="src\assets\page-bg-2.jpg" alt="img09" />
                 <figcaption>
                   <h2>
                     Branding <span>CourierTek</span>

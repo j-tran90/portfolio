@@ -6,7 +6,7 @@ function NavBar() {
     <>
       <nav className="navbar navbar-expand-lg navbar-light pb-4">
         <div className="container navbar-custom">
-          <a className="navbar-brand" href="/home">
+          <a className="navbar-brand" href="/">
             <img src="./src/assets/logo5.png" alt="" />
           </a>
           <button
@@ -38,10 +38,7 @@ function NavBar() {
                   aria-labelledby="navbarDropdownMenuLink"
                 >
                   <li>
-                    <a
-                      className="dropdown-item"
-                      href="https://glamorous-tan-slacks.cyclic.app/"
-                    >
+                    <a className="dropdown-item" href="/couriertek">
                       CourierTek
                     </a>
                   </li>

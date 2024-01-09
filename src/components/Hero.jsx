@@ -33,7 +33,7 @@ function Hero() {
         <div className="carousel-inner">
           <div className="carousel-item crop active">
             <img
-              src="https://hips.hearstapps.com/hmg-prod/images/718-style-edition-18-1667334774.jpg?crop=0.704xw:0.594xh;0.192xw,0.125xh&resize=2048:*"
+              src="src\assets\pexels-skylar-kang-6044217.jpg"
               className="d-block w-100"
               alt="..."
             />
@@ -48,7 +48,7 @@ function Hero() {
           </div>
           <div className="carousel-item crop">
             <img
-              src="https://hips.hearstapps.com/hmg-prod/images/2024-porsche-718-cayman-style-edition-102-1674233993.jpeg"
+              src="src\assets\pexels-skylar-kang-6044235.jpg"
               className="d-block w-100"
               alt="..."
             />
@@ -61,7 +61,7 @@ function Hero() {
           </div>
           <div className="carousel-item crop">
             <img
-              src="https://hips.hearstapps.com/hmg-prod/images/2021-porsche-718-cayman-gt4-107-1616160477.jpg?crop=0.731xw:0.615xh;0.136xw,0.192xh&resize=2048:*"
+              src="src\assets\pexels-skylar-kang-6044201.jpg"
               className="d-block w-100"
               alt="..."
             />
