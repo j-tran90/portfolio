@@ -25,14 +25,14 @@ function NavBar() {
               <a
                 className="nav-link active"
                 aria-current="page"
-                href="#projects"
+                href="/#projects"
               >
                 Projects
               </a>
-              <a className="nav-link" href="#skills">
+              <a className="nav-link" href="/#skills">
                 Skills
               </a>
-              <a className="nav-link" href="#about">
+              <a className="nav-link" href="/#about">
                 About
               </a>
               <a className="nav-link" href="/contact">

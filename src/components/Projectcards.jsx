@@ -8,19 +8,21 @@ function ProjectCards() {
         <div className="row row-cols-xl-3">
           <div className="col col-md-6">
             <figure className="effect-oscar">
-              <img
-                src="https://www.topgear.com/sites/default/files/images/cars-road-test/carousel/2020/05/a7d05bfa8da648f8814de1478e95ac89/911_turbos_silver057.jpg"
-                alt="img09"
-              />
-              <figcaption>
-                <h2>
-                  Branding <span>CourierTek</span>
-                </h2>
-                <p>
-                  A courier tracking solution for business all types and sizes.
-                </p>
-                <a href="#">View more</a>
-              </figcaption>
+              <a className="nav-link" href="/couriertek">
+                <img
+                  src="https://www.topgear.com/sites/default/files/images/cars-road-test/carousel/2020/05/a7d05bfa8da648f8814de1478e95ac89/911_turbos_silver057.jpg"
+                  alt="img09"
+                />
+                <figcaption>
+                  <h2>
+                    Branding <span>CourierTek</span>
+                  </h2>
+                  <p>
+                    A courier tracking solution for business all types and
+                    sizes.
+                  </p>
+                </figcaption>
+              </a>
             </figure>
           </div>
           <div className="col col-md-6">
