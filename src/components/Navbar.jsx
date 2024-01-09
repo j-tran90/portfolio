@@ -44,7 +44,10 @@ function NavBar() {
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
                 />
               </a>
-              <a className="nav-link px-2" href="#">
+              <a
+                className="nav-link px-2"
+                href="https://www.linkedin.com/in/john-tran-486ab6235/"
+              >
                 <img
                   className="socials"
                   src="
@@ -62,7 +65,10 @@ function NavBar() {
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
             />
           </a>
-          <a className="nav-link px-3 d-none" href="#">
+          <a
+            className="nav-link px-3 d-none"
+            href="https://www.linkedin.com/in/john-tran-486ab6235/"
+          >
             <img
               className="socials"
               src="
