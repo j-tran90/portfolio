@@ -4,7 +4,7 @@ function About() {
   return (
     <>
       <div className="container">
-        <h1 className="display-1 text-center p-5">A little About Me</h1>
+        <h1 className="display-1 text-center p-5">About Me</h1>
         <p>
           My name is <strong>John Tran</strong> and I am full stack developer. I
           graduated Centennial College for Software Engineering Technician. I

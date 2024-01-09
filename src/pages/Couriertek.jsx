@@ -19,7 +19,7 @@ export default function Couriertek() {
             written by us. It was important to the client that the webpage is
             optimized for at least mobile usuage since CourierTek itself is a
             mobile-first platform.
-            <div className="text-center p-3">
+            <div className="text-center p-5">
               <a
                 type="button"
                 className="btn btn-warning fw-bold"
@@ -30,7 +30,7 @@ export default function Couriertek() {
             </div>
           </ul>
         </p>
-        <p className="display-6 pb-2 pt-2">Technology Stack</p>
+        <p className="display-6 pb-2">Technology Stack</p>
         <div className="row">
           <div className="col text-center">
             <img
