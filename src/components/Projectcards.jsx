@@ -5,7 +5,7 @@ function ProjectCards() {
     <>
       <div className="grid container-fluid pb-5">
         <div className="container p-5 display-1 text-center">Portfolio</div>
-        <div className="row row-cols-xl-3">
+        <div className="row row-cols-xl-2">
           <div className="col col-md-6">
             <figure className="effect-oscar">
               <a className="nav-link" href="/couriertek">

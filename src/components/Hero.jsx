@@ -23,18 +23,12 @@ function Hero() {
             data-bs-slide-to="1"
             aria-label="Slide 2"
           ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
         </div>
         <div className="carousel-inner">
           <div className="carousel-item crop active">
             <img
               src="src\assets\pexels-skylar-kang-6044217.jpg"
-              className="d-block w-100"
+              className="crop-img"
               alt="..."
             />
             <div className="carousel-caption">
@@ -49,26 +43,13 @@ function Hero() {
           <div className="carousel-item crop">
             <img
               src="src\assets\pexels-skylar-kang-6044235.jpg"
-              className="d-block w-100"
+              className="crop-img"
               alt="..."
             />
             <div className="carousel-caption d-md-block">
               <h5>Second slide label</h5>
               <p>
                 Some representative placeholder content for the second slide.
-              </p>
-            </div>
-          </div>
-          <div className="carousel-item crop">
-            <img
-              src="src\assets\pexels-skylar-kang-6044201.jpg"
-              className="d-block w-100"
-              alt="..."
-            />
-            <div className="carousel-caption  d-md-block">
-              <h5>Third slide label</h5>
-              <p>
-                Some representative placeholder content for the third slide.
               </p>
             </div>
           </div>

@@ -1,15 +1,17 @@
 .crop {
   overflow: hidden;
-  max-height: 50vh;
-}
-
-.crop img {
-  height: 100%;
+  height: 50vh;
 }
 
 .carousel-caption {
-  top: 10%;
+  top: 30%;
   bottom: auto;
+}
+
+.crop-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 @media only screen and (max-width: 500px) {
@@ -26,10 +28,12 @@
     display: none;
   }
   .crop {
-    height: 50vh;
+    height: 70vh;
   }
 
-  .crop img {
+  .crop-img {
     height: 100%;
+    width: 100%;
+    object-fit: cover;
   }
 }
