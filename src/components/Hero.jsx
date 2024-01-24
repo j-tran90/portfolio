@@ -27,7 +27,7 @@ function Hero() {
         <div className="carousel-inner">
           <div className="carousel-item crop active">
             <img
-              src="src\assets\vecteezy_black-gold-marbling-texture-design-for-poster-brochure_6852758.jpg"
+              src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fvecteezy_black-gold-marbling-texture-design-for-poster-brochure_6852758.jpg?alt=media&token=dc5a809f-4a6e-4821-9b6e-b79b2a2ebda6"
               className="crop-img"
               alt="Gold Vectors by Vecteezy"
             />
@@ -43,7 +43,7 @@ function Hero() {
           </div>
           <div className="carousel-item crop">
             <img
-              src="src\assets\vecteezy_black-gold-marbling-texture-design-for-poster-brochure_6852754.jpg"
+              src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fvecteezy_black-gold-marbling-texture-design-for-poster-brochure_6852754.jpg?alt=media&token=75c7ef62-fe88-4cf4-8a19-1d7e2f505d77"
               className="crop-img"
               alt="..."
             />

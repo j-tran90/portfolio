@@ -10,7 +10,7 @@ function ProjectCards() {
             <figure className="effect-oscar">
               <a className="nav-link" href="/couriertek">
                 <img
-                  src="src\assets\vecteezy_abstract-orange-fluid-wave-background_.jpg"
+                  src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fvecteezy_abstract-orange-fluid-wave-background_.jpg?alt=media&token=799e50d4-67b7-4c7c-a16d-f1a859044136"
                   alt="img09"
                 />
                 <figcaption>
@@ -28,7 +28,7 @@ function ProjectCards() {
           <div className="col col-md-6">
             <figure className="effect-oscar">
               <img
-                src="src\assets\vecteezy_abstract-blue-gradient-fluid-background_6736876.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fvecteezy_abstract-blue-gradient-fluid-background_6736876.jpg?alt=media&token=abbbf1f9-bfdb-477f-8492-25bbf9057ca7"
                 alt="img09"
               />
               <figcaption>
@@ -45,7 +45,7 @@ function ProjectCards() {
             <figure className="effect-oscar">
               <a href="https://nhoracing.vercel.app/">
                 <img
-                  src="src\assets\vecteezy_abstract-red-fluid-wave-background_.jpg"
+                  src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fvecteezy_abstract-red-fluid-wave-background_.jpg?alt=media&token=bee10269-7df5-441b-83e7-4441ac64a514"
                   alt="img09"
                 />
                 <figcaption>
@@ -63,7 +63,7 @@ function ProjectCards() {
           <div className="col col-md-6">
             <figure className="effect-oscar">
               <img
-                src="src\assets\vecteezy_abstract-blue-fluid-wave-background_.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fvecteezy_abstract-blue-fluid-wave-background_.jpg?alt=media&token=95da1947-7096-4153-b738-f672de35a9e5"
                 alt="img09"
               />
               <figcaption>

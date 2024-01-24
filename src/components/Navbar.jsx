@@ -8,7 +8,10 @@ function NavBar() {
       <nav className="navbar navbar-expand-lg navbar-light pb-4">
         <div className="container navbar-custom">
           <a className="navbar-brand" href="/">
-            <img src="./src/assets/logo5.png" alt="" />
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Flogo5.png?alt=media&token=042cb3ad-4e5a-4329-a199-379f694a88d6"
+              alt=""
+            />
           </a>
           <button
             className="navbar-toggler"
