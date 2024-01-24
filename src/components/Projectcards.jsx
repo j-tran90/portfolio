@@ -10,7 +10,7 @@ function ProjectCards() {
             <figure className="effect-oscar">
               <a className="nav-link" href="/couriertek">
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fvecteezy_abstract-orange-fluid-wave-background_.jpg?alt=media&token=799e50d4-67b7-4c7c-a16d-f1a859044136"
+                  src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fvecteezy_abstract-orange-fluid-wave-background_.jpg?alt=media&token=bb03a23c-6e9d-4b82-b9b9-123f58c353c4"
                   alt="img09"
                 />
                 <figcaption>
@@ -28,7 +28,7 @@ function ProjectCards() {
           <div className="col col-md-6">
             <figure className="effect-oscar">
               <img
-                src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fvecteezy_abstract-blue-gradient-fluid-background_6736876.jpg?alt=media&token=abbbf1f9-bfdb-477f-8492-25bbf9057ca7"
+                src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fvecteezy_abstract-blue-gradient-fluid-background_6736876.jpg?alt=media&token=b9c03862-0d66-4c04-8fbd-9305742ccad9"
                 alt="img09"
               />
               <figcaption>
@@ -36,7 +36,8 @@ function ProjectCards() {
                   Full Stack Project <span>SeaShell</span>
                 </h2>
                 <p>
-                  Oscar is a decent man. He used to clean porches with pleasure.
+                  A light chat application. A solo full stack project using
+                  React, Javascript, Boostrap, and Firebase
                 </p>
               </figcaption>
             </figure>
@@ -45,16 +46,17 @@ function ProjectCards() {
             <figure className="effect-oscar">
               <a href="https://nhoracing.vercel.app/">
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fvecteezy_abstract-red-fluid-wave-background_.jpg?alt=media&token=bee10269-7df5-441b-83e7-4441ac64a514"
+                  src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fvecteezy_abstract-red-fluid-wave-background_.jpg?alt=media&token=dabfb2f6-3770-4e7e-9f84-b27e4d5fdda1"
                   alt="img09"
+                  loading="lazy"
                 />
                 <figcaption>
                   <h2>
                     Freelance <span>Nho Racing</span>
                   </h2>
                   <p>
-                    Oscar is a decent man. He used to clean porches with
-                    pleasure.
+                    A freelance project taking on client's request to create a
+                    simple static webpage to showcase an imported vehicle.
                   </p>
                 </figcaption>
               </a>
@@ -63,15 +65,17 @@ function ProjectCards() {
           <div className="col col-md-6">
             <figure className="effect-oscar">
               <img
-                src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fvecteezy_abstract-blue-fluid-wave-background_.jpg?alt=media&token=95da1947-7096-4153-b738-f672de35a9e5"
+                src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fvecteezy_abstract-blue-fluid-wave-background_.jpg?alt=media&token=7b3ac57a-be52-4a3b-9b59-87dcd329a634"
                 alt="img09"
+                loading="lazy"
               />
               <figcaption>
                 <h2>
                   Full Stack Group Project <span>Tix</span>
                 </h2>
                 <p>
-                  Oscar is a decent man. He used to clean porches with pleasure.
+                  A survey generator. A full stack group project using Express,
+                  Typescript, Bootstrap, and MongoDB.
                 </p>
               </figcaption>
             </figure>

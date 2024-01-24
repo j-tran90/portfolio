@@ -18,7 +18,10 @@ function About() {
 
         <div className="pb-5 pt-5">
           <div className="circular--portrait center--portrait">
-            <img src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fprofile-pic.png?alt=media&token=580225ef-241d-4804-88fe-e9fe23fad62c" />
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fprofile-pic.png?alt=media&token=f711aefe-95aa-44eb-915b-c9f3389b8640"
+              loading="lazy"
+            />
           </div>
         </div>
         <div className="container text-center pb-5">
