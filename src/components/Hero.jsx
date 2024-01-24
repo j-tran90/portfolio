@@ -27,9 +27,9 @@ function Hero() {
         <div className="carousel-inner">
           <div className="carousel-item crop active">
             <img
-              src="src\assets\pexels-skylar-kang-6044217.jpg"
+              src="src\assets\vecteezy_black-gold-marbling-texture-design-for-poster-brochure_6852758.jpg"
               className="crop-img"
-              alt="..."
+              alt="Gold Vectors by Vecteezy"
             />
             <div className="carousel-caption">
               <h1>Hi, I'm </h1>
@@ -38,18 +38,35 @@ function Hero() {
               <a className="btn btn-primary" href="/About" role="button">
                 About Me
               </a>
+              <div></div>
             </div>
           </div>
           <div className="carousel-item crop">
             <img
-              src="src\assets\pexels-skylar-kang-6044235.jpg"
+              src="src\assets\vecteezy_black-gold-marbling-texture-design-for-poster-brochure_6852754.jpg"
               className="crop-img"
               alt="..."
             />
             <div className="carousel-caption d-md-block">
-              <h5>Second slide label</h5>
+              <h1 className="display-1 fw-bolder">Stack Used Here</h1>
               <p>
-                Some representative placeholder content for the second slide.
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
+                  className="stack"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                  className="stack"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                  className="stack"
+                />
+
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                  className="stack"
+                />
               </p>
             </div>
           </div>

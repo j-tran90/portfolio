@@ -2,7 +2,7 @@
   margin: 0 auto;
 }
 * {
-  border: 0px solid red;
+  border: 10x solid red;
 }
 
 main {
@@ -21,4 +21,8 @@ html {
 .footer {
   font-size: 10px;
   padding: 0;
+}
+
+a {
+  color: white;
 }

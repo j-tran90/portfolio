@@ -29,7 +29,7 @@ export default function Navlinks() {
             </li>
             <li>
               <a className="dropdown-item" href="#">
-                Porsche Fanpage
+                Nho Racing
               </a>
             </li>
             <li>
@@ -45,26 +45,10 @@ export default function Navlinks() {
         <a className="nav-link" href="/#about">
           About
         </a>
-        <a className="nav-link" href="/contact">
+        <a className="nav-link disabled" href="/contact">
           Contact
         </a>
       </div>
-      <a className="nav-link px-3 d-none" href="https://github.com/j-tran90">
-        <img
-          className="socials"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-        />
-      </a>
-      <a
-        className="nav-link px-3 d-none"
-        href="https://www.linkedin.com/in/john-tran-486ab6235/"
-      >
-        <img
-          className="socials"
-          src="
-                  https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"
-        />
-      </a>
     </>
   );
 }

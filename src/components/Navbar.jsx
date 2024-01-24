@@ -25,8 +25,8 @@ function NavBar() {
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar ms-auto">
               <Navlinks />
-              <Socials />
             </div>
+            <Socials />
           </div>
         </div>
       </nav>

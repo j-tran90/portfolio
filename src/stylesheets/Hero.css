@@ -28,7 +28,7 @@
     display: none;
   }
   .crop {
-    height: 70vh;
+    height: 80vh;
   }
 
   .crop-img {
@@ -36,4 +36,9 @@
     width: 100%;
     object-fit: cover;
   }
+}
+
+.stack {
+  height: 100px;
+  padding-right: 20px;
 }

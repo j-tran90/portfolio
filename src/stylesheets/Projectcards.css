@@ -1,3 +1,19 @@
+@media only screen and (min-width: 1700px) {
+  h2 {
+    font-size: 3em;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  h2 {
+    font-size: 1em;
+  }
+}
+
+div.col {
+  padding: 0;
+}
+
 @font-face {
   font-weight: normal;
   font-style: normal;
@@ -9,19 +25,6 @@
     url("../fonts/feathericons/feathericons.ttf?-8is7zf") format("truetype"),
     url("../fonts/feathericons/feathericons.svg?-8is7zf#feathericons")
       format("svg");
-}
-
-@media only screen and (max-width: 700px) {
-  h2 {
-    font-size: 1em;
-  }
-  figcaption p {
-    display: none;
-  }
-}
-
-div.col {
-  padding: 0;
 }
 
 /* Common style */
@@ -99,13 +102,13 @@ div.col {
 /* Individual effects */
 
 figure.effect-oscar {
-  background: -webkit-linear-gradient(
+  /* background: -webkit-linear-gradient(
     45deg,
     #22682a 0%,
     #9b4a1b 40%,
     #3a342a 100%
-  );
-  background: linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
+  ); */
+  background: rgb(0, 0, 0);
 }
 
 figure.effect-oscar img {
@@ -116,9 +119,9 @@ figure.effect-oscar img {
 
 figure.effect-oscar figcaption {
   padding: 3em;
-  background-color: rgba(58, 52, 42, 0.7);
+  /* background-color: rgba(58, 52, 42, 0.7);
   -webkit-transition: background-color 0.35s;
-  transition: background-color 0.35s;
+  transition: background-color 0.35s; */
 }
 
 figure.effect-oscar figcaption::before {
