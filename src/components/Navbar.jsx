@@ -1,7 +1,6 @@
 import "../stylesheets/Navbar.css";
 import Navlinks from "./Navlinks";
-import Socials from "./socials";
-//import Link from "react-router-dom";
+import Socials from "./Socials";
 
 function NavBar() {
   return (
