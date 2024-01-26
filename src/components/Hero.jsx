@@ -46,7 +46,7 @@ function Hero() {
             <img
               src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fvecteezy_black-gold-marbling-texture-design-for-poster-brochure_6852754.jpg?alt=media&token=d97536fb-7440-4084-8ca0-8b813871ddc9"
               className="crop-img"
-              loading="lazy"
+              loading="eager"
               alt="..."
             />
             <div className="carousel-caption d-md-block">
