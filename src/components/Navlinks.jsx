@@ -23,12 +23,15 @@ export default function Navlinks() {
               </a>
             </li>
             <li>
-              <a className="dropdown-item" href="#">
+              <a
+                className="dropdown-item"
+                href="https://seashell-lft5.vercel.app/"
+              >
                 Sea Shell
               </a>
             </li>
             <li>
-              <a className="dropdown-item" href="#">
+              <a className="dropdown-item" href="https://nhoracing.vercel.app/">
                 Nho Racing
               </a>
             </li>

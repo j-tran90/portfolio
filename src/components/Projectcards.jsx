@@ -7,7 +7,7 @@ function ProjectCards() {
         <div className="container p-5 display-1 text-center">Portfolio</div>
         <div className="row row-cols-xl-2">
           <div className="col col-md-6">
-            <figure className="effect-oscar">
+            <figure className="">
               <a className="nav-link" href="/couriertek">
                 <img
                   src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fvecteezy_abstract-orange-fluid-wave-background_.jpg?alt=media&token=bb03a23c-6e9d-4b82-b9b9-123f58c353c4"

@@ -6,6 +6,7 @@ import Contact from "../pages/Contact";
 import NavBar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Couriertek from "../pages/Couriertek";
+import Nhoracing from "../pages/Nhoracing";
 
 const RouteSwitch = () => {
   return (
@@ -20,6 +21,7 @@ const RouteSwitch = () => {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/couriertek" element={<Couriertek />} />
+            <Route path="/nhoracing" element={<Nhoracing />} />
           </Routes>
         </main>
         <Footer />
