@@ -7,6 +7,7 @@ import NavBar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Couriertek from "../pages/Couriertek";
 import Nhoracing from "../pages/Nhoracing";
+import Seashell from "../pages/Seashell";
 
 const RouteSwitch = () => {
   return (
@@ -22,6 +23,7 @@ const RouteSwitch = () => {
             <Route path="/contact" element={<Contact />} />
             <Route path="/couriertek" element={<Couriertek />} />
             <Route path="/nhoracing" element={<Nhoracing />} />
+            <Route path="/seashell" element={<Seashell />} />
           </Routes>
         </main>
         <Footer />
