@@ -5,12 +5,12 @@ function ProjectCards() {
     <>
       <div className="grid container-fluid pb-5">
         <div className="container p-5 display-1 text-center">Portfolio</div>
-        <div className="row row-cols-xl-2">
-          <div className="col col-md-6">
+        <div className="row row-cols-md-2">
+          <div className="col">
             <figure className="effect-oscar">
               <a className="nav-link" href="/couriertek">
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fvecteezy_abstract-orange-fluid-wave-background_.jpg?alt=media&token=bb03a23c-6e9d-4b82-b9b9-123f58c353c4"
+                  src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fvecteezy_abstract-orange-fluid-wave-background_19kb.jpg?alt=media&token=0c15938c-681a-48e0-af32-4e3c9e07cfcb"
                   alt="..."
                   loading="eager"
                 />
@@ -26,7 +26,7 @@ function ProjectCards() {
               </a>
             </figure>
           </div>
-          <div className="col col-md-6">
+          <div className="col">
             <figure className="effect-oscar">
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fvecteezy_abstract-blue-gradient-fluid-background_6736876.jpg?alt=media&token=b9c03862-0d66-4c04-8fbd-9305742ccad9"
@@ -44,7 +44,7 @@ function ProjectCards() {
               </figcaption>
             </figure>
           </div>
-          <div className="col col-md-6">
+          <div className="col">
             <figure className="effect-oscar">
               <a href="https://nhoracing.vercel.app/">
                 <img
@@ -64,7 +64,7 @@ function ProjectCards() {
               </a>
             </figure>
           </div>
-          <div className="col col-md-6">
+          <div className="col">
             <figure className="effect-oscar">
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fvecteezy_abstract-blue-fluid-wave-background_.jpg?alt=media&token=7b3ac57a-be52-4a3b-9b59-87dcd329a634"
