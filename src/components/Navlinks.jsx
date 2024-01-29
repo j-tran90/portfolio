@@ -33,7 +33,7 @@ export default function Navlinks() {
               </a>
             </li>
             <li>
-              <a className="dropdown-item" href="#">
+              <a className="dropdown-item disabled" href="#">
                 Tix
               </a>
             </li>

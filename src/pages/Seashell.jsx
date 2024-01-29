@@ -17,13 +17,10 @@ export default function Seashell() {
         <p className="display-6 pb-2">Overview</p>
         <p>
           <ul>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            A simple open chat application design to be step stones for a more
+            intricate chat application. The goal is to expand the chat to allow
+            group conversations. The objective is to keep it lightweight so that
+            it can be integrated into a larger application.
           </ul>
           <div className="text-center p-5">
             <a

@@ -24,7 +24,8 @@ function About() {
             />
           </div>
         </div>
-        <div className="container text-center pb-5">
+        {/* Hidden until integrated */}
+        <div className="container text-center pb-5 d-none">
           <a className="btn btn-primary" href="#" role="button">
             My Resume
           </a>
