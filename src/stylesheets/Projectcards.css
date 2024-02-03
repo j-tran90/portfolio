@@ -177,3 +177,8 @@ figure.effect-oscar:hover img {
 div.col {
   padding: 0;
 }
+
+figcaption.figtext {
+  margin-top: 20%;
+  margin-bottom: auto;
+}

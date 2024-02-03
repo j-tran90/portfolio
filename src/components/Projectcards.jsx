@@ -7,14 +7,14 @@ function ProjectCards() {
         <div className="container p-5 display-1 text-center">Portfolio</div>
         <div className="row row-cols-md-2">
           <a className="nav-link" href="/couriertek">
-            <div className="col">
-              <figure className="effect-oscar">
+            <div className="col-sm">
+              <figure className="">
                 <img
                   src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fvecteezy_abstract-orange-fluid-wave-background_.jpg?alt=media&token=bb03a23c-6e9d-4b82-b9b9-123f58c353c4"
                   alt=""
                   loading="eager"
                 />
-                <figcaption>
+                <figcaption className="figtext">
                   <h2>
                     Freelance <span>CourierTek</span>
                   </h2>
@@ -28,14 +28,14 @@ function ProjectCards() {
           </a>
 
           <a className="nav-link" href="/seashell">
-            <div className="col">
-              <figure className="effect-oscar">
+            <div className="col-sm">
+              <figure className="">
                 <img
                   src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fvecteezy_abstract-blue-gradient-fluid-background_6736876.jpg?alt=media&token=b9c03862-0d66-4c04-8fbd-9305742ccad9"
                   alt=""
                   loading="eager"
                 />
-                <figcaption>
+                <figcaption className="figtext">
                   <h2>
                     Full Stack Project <span>SeaShell</span>
                   </h2>
