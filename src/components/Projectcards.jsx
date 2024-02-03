@@ -9,22 +9,19 @@ function ProjectCards() {
         <div className="row row-cols-md-2">
           <a className="nav-link" href="/couriertek">
             <Col>
-              <figure className="effect-oscar">
-                <img
+              <div id="card-1">
+                {/* <img
                   src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fvecteezy_abstract-orange-fluid-wave-background_.jpg?alt=media&token=bb03a23c-6e9d-4b82-b9b9-123f58c353c4"
                   alt=""
                   loading="eager"
-                />
-                <figcaption className="figtext">
-                  <h2>
-                    Freelance <span>CourierTek</span>
-                  </h2>
-                  <p>
-                    A courier tracking solution for business all types and
-                    sizes.
-                  </p>
-                </figcaption>
-              </figure>
+                /> */}
+                <h2>
+                  Freelance <span>CourierTek</span>
+                </h2>
+                <p>
+                  A courier tracking solution for business all types and sizes.
+                </p>
+              </div>
             </Col>
           </a>
 

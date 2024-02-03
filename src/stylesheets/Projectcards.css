@@ -182,3 +182,9 @@ div.col {
   margin-top: 20%;
   margin-bottom: auto;
 } */
+
+#card-1 {
+  min-height: 100%;
+  max-width: 100%;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fvecteezy_abstract-orange-fluid-wave-background_.jpg?alt=media&token=bb03a23c-6e9d-4b82-b9b9-123f58c353c4");
+}
