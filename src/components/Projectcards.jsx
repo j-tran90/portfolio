@@ -22,6 +22,13 @@ function ProjectCards() {
               <a className="btn btn-warning" href="/couriertek" role="button">
                 See More
               </a>
+              <a
+                className="btn btn-warning mx-2"
+                href="              https://glamorous-tan-slacks.cyclic.app/"
+                role="button"
+              >
+                Visit CourierTek
+              </a>
             </div>
           </div>
           <div className="card">
@@ -39,6 +46,13 @@ function ProjectCards() {
               <a className="btn btn-info" href="/seashell" role="button">
                 See More
               </a>
+              <a
+                className="btn btn-info mx-2"
+                href="https://seashell.vercel.app/"
+                role="button"
+              >
+                Visit SeaShell
+              </a>
             </div>
           </div>
           <div className="card">
@@ -54,7 +68,14 @@ function ProjectCards() {
                 simple static webpage to showcase an imported vehicle.
               </p>
               <a className="btn btn-danger" href="/nhoracing" role="button">
-                See More
+                More Details
+              </a>
+              <a
+                className="btn btn-danger mx-2"
+                href="https://nhoracing.vercel.app/"
+                role="button"
+              >
+                Visit Nho Racing
               </a>
             </div>
           </div>
