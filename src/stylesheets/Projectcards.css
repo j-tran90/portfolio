@@ -174,8 +174,9 @@ figure.effect-oscar:hover img {
   }
 }
 
-div.col {
+div.col-sm {
   padding: 0;
+  border: 1px solid black;
 }
 
 figcaption.figtext {
