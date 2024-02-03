@@ -179,12 +179,15 @@ div.col {
 }
 
 /* figcaption.figtext {
-  margin-top: 20%;
-  margin-bottom: auto;
+
 } */
 
 #card-1 {
-  min-height: 100%;
-  max-width: 100%;
+  min-width: 320px;
+  min-height: 500px;
   background-image: url("https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fvecteezy_abstract-orange-fluid-wave-background_.jpg?alt=media&token=bb03a23c-6e9d-4b82-b9b9-123f58c353c4");
+}
+
+#card-2 {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fvecteezy_abstract-blue-gradient-fluid-background_6736876.jpg?alt=media&token=b9c03862-0d66-4c04-8fbd-9305742ccad9");
 }
