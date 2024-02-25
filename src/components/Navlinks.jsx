@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 export default function Navlinks() {
   return (
@@ -22,34 +22,34 @@ export default function Navlinks() {
               aria-labelledby="navbarDropdownMenuLink"
             >
               <li>
-                <Link as={Link} to="/couriertek" className="dropdown-item">
+                <Link to="/couriertek" className="dropdown-item">
                   CourierTek
                 </Link>
               </li>
               <li>
-                <Link as={Link} to="/seashell" className="dropdown-item">
+                <Link to="/seashell" className="dropdown-item">
                   Sea Shell
                 </Link>
               </li>
               <li>
-                <Link as={Link} to="/nhoracing" className="dropdown-item">
+                <Link to="/nhoracing" className="dropdown-item">
                   Nho Racing
                 </Link>
               </li>
               <li>
-                <Link as={Link} to="#" className="dropdown-item disabled">
+                <Link to="#" className="dropdown-item disabled">
                   Calorator
                 </Link>
               </li>
             </ul>
           </li>
         </ul>
-        <a className="nav-link" href="/#skills">
+        <Link to="/#skills" className="nav-link">
           Skills
-        </a>
-        <a className="nav-link" href="/#about">
+        </Link>
+        <Link to="/#about" className="nav-link">
           About
-        </a>
+        </Link>
         {/* <a className="nav-link disabled" href="/contact">
           Contact
         </a> */}
