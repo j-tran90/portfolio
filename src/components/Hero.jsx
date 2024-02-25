@@ -1,4 +1,5 @@
 import "../stylesheets/Hero.css";
+import "../stylesheets/Fog.css";
 
 function Hero() {
   return (
@@ -26,16 +27,22 @@ function Hero() {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item crop active">
-            <img
-              src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fpexels-eberhard-grossgasteiger-691668.jpg?alt=media&token=17aa6742-e68e-444c-81bc-fb9f27a15171"
-              className="crop-img"
-              loading="eager"
-              alt="Picture by eberhard grossgasteiger"
-              title="Snowy Mountain by eberhard grossgasteiger"
-            />
+            <section className="fog">
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fpexels-eberhard-grossgasteiger-691668.jpg?alt=media&token=17aa6742-e68e-444c-81bc-fb9f27a15171"
+                className="crop-img carousel-img"
+                loading="eager"
+                alt="Picture by eberhard grossgasteiger"
+                title="Snowy Mountain by eberhard grossgasteiger"
+              />
+              <div className="fog-container">
+                <div className="fog-img fog-img-first"></div>
+                <div className="fog-img fog-img-second"></div>
+              </div>
+            </section>
             <div className="carousel-caption">
               <h1>Hi, I'm </h1>
-              <div className="display-1 fw-bolder">John Tran</div>
+              <div className="display-1 fw-bolder ">John Tran</div>
               <p className="lead">A Full Stack Web Developer.</p>
               <a className="btn btn-light" href="/about" role="button">
                 About Me
@@ -44,13 +51,20 @@ function Hero() {
             </div>
           </div>
           <div className="carousel-item crop">
-            <img
-              src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fpexels-eberhard-grossgasteiger-1287138.jpg?alt=media&token=ea8c27f8-1803-4d80-80c3-3af8321688d6"
-              className="crop-img"
-              loading="eager"
-              alt="..."
-              title="Snowy Mountain by eberhard grossgasteiger"
-            />
+            <section className="fog">
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fpexels-eberhard-grossgasteiger-1287138.jpg?alt=media&token=ea8c27f8-1803-4d80-80c3-3af8321688d6"
+                className="crop-img carousel-img"
+                loading="eager"
+                alt="..."
+                title="Snowy Mountain by eberhard grossgasteiger"
+              />
+              <div className="fog-container">
+                <div className="fog-img fog-img-first"></div>
+                <div className="fog-img fog-img-second"></div>
+              </div>
+            </section>
+
             <div className="carousel-caption carousel-caption-two d-md-block">
               <div className="container stack-box">
                 <div className="display-1 fw-bolder pb-2">Created With</div>

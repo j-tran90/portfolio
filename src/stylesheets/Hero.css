@@ -8,6 +8,13 @@
   bottom: auto;
 }
 
+.carousel-img {
+  position: absolute;
+  z-index: 0;
+  top: -0px;
+  height: 100%;
+}
+
 .carousel-caption-two {
   top: 20%;
   bottom: auto;
