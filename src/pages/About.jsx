@@ -4,7 +4,7 @@ function About() {
   return (
     <>
       <div className="container">
-        <h1 className="display-1 text-center p-5">About Me</h1>
+        <div className="display-1 text-center p-5">About Me</div>
         <p>
           My name is <strong>John Tran</strong> and I am full stack developer. I
           graduated Centennial College for Software Engineering Technician. I
@@ -21,6 +21,7 @@ function About() {
             <img
               src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fprofile-pic.png?alt=media&token=f711aefe-95aa-44eb-915b-c9f3389b8640"
               loading="lazy"
+              alt="A portrait of myself being optimistic"
             />
           </div>
         </div>

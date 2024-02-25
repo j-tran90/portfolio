@@ -31,6 +31,7 @@ function Hero() {
               className="crop-img"
               loading="eager"
               alt="Gold Vectors by Vecteezy"
+              title="Gold Vectors by Vecteezy"
             />
             <div className="carousel-caption">
               <h1>Hi, I'm </h1>
@@ -48,6 +49,7 @@ function Hero() {
               className="crop-img"
               loading="eager"
               alt="..."
+              title="Gold Vectors by Vecteezy"
             />
             <div className="carousel-caption d-md-block">
               <h1 className="display-1 fw-bolder">Stack Used Here</h1>

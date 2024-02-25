@@ -9,6 +9,7 @@ export default function Socials() {
               aria-label="GitHub"
               title="GitHub"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+              alt="..."
             />
           </a>
         </div>
@@ -23,6 +24,7 @@ export default function Socials() {
               title="LinkedIn"
               src="
                   https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"
+              alt="..."
             />
           </a>
         </div>
