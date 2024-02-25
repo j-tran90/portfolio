@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../stylesheets/Projectcards.css";
 
 function ProjectCards() {
@@ -19,12 +20,16 @@ function ProjectCards() {
                 A Free lance project. A courier tracking solution for business
                 all types and sizes.
               </p>
-              <a className="btn btn-warning" href="/couriertek" role="button">
+              <a
+                href="/couriertek"
+                className="btn btn-warning my-2 mx-2"
+                role="button"
+              >
                 Tech Stack
               </a>
               <a
+                href="https://glamorous-tan-slacks.cyclic.app/"
                 className="btn btn-warning mx-2"
-                href="              https://glamorous-tan-slacks.cyclic.app/"
                 role="button"
               >
                 Go to CourierTek
@@ -43,7 +48,11 @@ function ProjectCards() {
                 A light chat application. A solo full stack project using React,
                 Javascript, Boostrap, and Firebase.
               </p>
-              <a className="btn btn-info" href="/seashell" role="button">
+              <a
+                href="/seashell"
+                className="btn btn-info my-2 mx-2"
+                role="button"
+              >
                 Tech Stack
               </a>
               <a
@@ -68,15 +77,15 @@ function ProjectCards() {
                 simple static webpage to showcase an imported vehicle.
               </p>
               <a
-                className="btn btn-danger my-2"
                 href="/nhoracing"
+                className="btn btn-danger my-2 mx-2"
                 role="button"
               >
                 Tech Stack
               </a>
               <a
-                className="btn btn-danger mx-2 "
                 href="https://nhoracing.vercel.app/"
+                className="btn btn-danger mx-2"
                 role="button"
               >
                 Go to Nho Racing
@@ -96,17 +105,17 @@ function ProjectCards() {
                 Javascript, and Firebase.
               </p>
               <div className="align-items-end">
-                <a
-                  className="btn btn-success"
-                  href="/"
+                {/* <a
+                  to="#"
+                  className="btn btn-success mx-2"
                   role="button"
-                  disabled={true}
+                  disabled
                 >
                   Tech Stack
-                </a>
+                </a> */}
                 <a
-                  className="btn btn-success mx-2"
                   href="https://calorator.vercel.app/"
+                  className="btn btn-success my-2 mx-2"
                   role="button"
                 >
                   Go to Calorator
