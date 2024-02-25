@@ -27,11 +27,11 @@ function Hero() {
         <div className="carousel-inner">
           <div className="carousel-item crop active">
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fvecteezy_black-gold-marbling-texture-design-for-poster-brochure_6852758.jpg?alt=media&token=b9beb3cd-0679-42ec-8971-989f9df4d859"
+              src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fpexels-eberhard-grossgasteiger-691668.jpg?alt=media&token=17aa6742-e68e-444c-81bc-fb9f27a15171"
               className="crop-img"
               loading="eager"
-              alt="Gold Vectors by Vecteezy"
-              title="Gold Vectors by Vecteezy"
+              alt="Picture by eberhard grossgasteiger"
+              title="Snowy Mountain by eberhard grossgasteiger"
             />
             <div className="carousel-caption">
               <h1>Hi, I'm </h1>
@@ -45,23 +45,14 @@ function Hero() {
           </div>
           <div className="carousel-item crop">
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fvecteezy_black-gold-marbling-texture-design-for-poster-brochure_6852754.jpg?alt=media&token=d97536fb-7440-4084-8ca0-8b813871ddc9"
+              src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fpexels-eberhard-grossgasteiger-1287138.jpg?alt=media&token=ea8c27f8-1803-4d80-80c3-3af8321688d6"
               className="crop-img"
               loading="eager"
               alt="..."
-              title="Gold Vectors by Vecteezy"
+              title="Snowy Mountain by eberhard grossgasteiger"
             />
-            <div className="carousel-caption d-md-block">
-              <div
-                className="container"
-                style={{
-                  borderRadius: "20px",
-                  border: "3px solid white",
-                  maxWidth: "700px",
-                  padding: "20px",
-                  backgroundColor: "#1b1b1b",
-                }}
-              >
+            <div className="carousel-caption carousel-caption-two d-md-block">
+              <div className="container stack-box">
                 <div className="display-1 fw-bolder pb-2">Created With</div>
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
@@ -85,14 +76,11 @@ function Hero() {
                 />
               </div>
 
-              <div className="py-2 pagespeed">
+              <div className="py-2">
                 <img
                   src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fpagespeed.png?alt=media&token=61849281-ebc3-4f4b-9d2b-efeca0999f2f"
                   alt="..."
-                  style={{
-                    borderRadius: "20px",
-                    border: "3px solid white",
-                  }}
+                  className="pagespeed"
                 />
               </div>
             </div>

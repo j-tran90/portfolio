@@ -8,13 +8,36 @@
   bottom: auto;
 }
 
+.carousel-caption-two {
+  top: 20%;
+  bottom: auto;
+}
+
 .crop-img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
-@media only screen and (max-width: 500px) {
+.stack {
+  height: 100px;
+  padding-right: 20px;
+}
+
+.stack-box {
+  border-radius: 10px;
+  border: 1px solid white;
+  max-width: 700px;
+  padding: 20px;
+  background-color: #1b1b1b71;
+}
+
+.pagespeed {
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+@media only screen and (max-width: 576px) {
   .carousel-caption h1 {
     font-size: 2.5rem;
   }
@@ -40,9 +63,13 @@
   .pagespeed {
     display: none;
   }
-}
 
-.stack {
-  height: 100px;
-  padding-right: 20px;
+  .stack {
+    max-height: 100px;
+    padding-right: 5px;
+  }
+
+  .stack-box {
+    padding: 5px;
+  }
 }

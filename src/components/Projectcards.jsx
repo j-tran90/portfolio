@@ -11,8 +11,8 @@ function ProjectCards() {
         <div className="card-group">
           <div className="card">
             <img
-              className="card-img-top"
-              src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fvecteezy_abstract-orange-fluid-wave-background_.jpg?alt=media&token=bb03a23c-6e9d-4b82-b9b9-123f58c353c4"
+              className="card-img-top card-1 crop-img"
+              src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fct-2.png?alt=media&token=0b7aa052-0d57-41f6-a181-67d4f1814894"
               alt="Card image cap"
             />
             <div className="card-body">
@@ -39,8 +39,8 @@ function ProjectCards() {
           </div>
           <div className="card">
             <img
-              className="card-img-top"
-              src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fvecteezy_abstract-blue-gradient-fluid-background_6736876.jpg?alt=media&token=b9c03862-0d66-4c04-8fbd-9305742ccad9"
+              className="card-img-top card-1 crop-img"
+              src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fseashell.png?alt=media&token=3dcb7ed7-d0b3-4632-bbc4-b1022bc6f87a"
               alt="Card image cap"
             />
             <div className="card-body">
@@ -67,8 +67,8 @@ function ProjectCards() {
           </div>
           <div className="card">
             <img
-              className="card-img-top"
-              src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fvecteezy_abstract-red-fluid-wave-background_.jpg?alt=media&token=dabfb2f6-3770-4e7e-9f84-b27e4d5fdda1"
+              className="card-img-top card-1 crop-img"
+              src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fnhoracing.png?alt=media&token=a3a312c0-3019-4aa8-9bc6-c3cc065e5292"
               alt="Card image cap"
             />
             <div className="card-body">
@@ -95,7 +95,7 @@ function ProjectCards() {
           </div>
           <div className="card">
             <img
-              className="card-img-top"
+              className="card-img-top card-1 crop-img"
               src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fcalorator.png?alt=media&token=bd3dee5a-dadd-4638-9115-33deff977b71"
               alt="Card image cap"
             />

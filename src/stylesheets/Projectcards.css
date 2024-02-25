@@ -155,13 +155,16 @@ figure.effect-oscar:hover img {
   opacity: 0.4;
 }
 
-@media only screen and (min-width: 1700px) {
+@media only screen and (min-width: 1800px) {
   h2 {
     font-size: 3em;
   }
+  .card-1 {
+    min-height: 40vh;
+  }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 576px) {
   h2 {
     font-size: 1em;
   }
@@ -171,6 +174,9 @@ figure.effect-oscar:hover img {
     transition: transform 0.35s;
     -webkit-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0);
+  }
+  .card-1 {
+    min-height: 30vh;
   }
 }
 
@@ -182,12 +188,6 @@ div.col {
 
 } */
 
-#card-1 {
-  min-width: 320px;
-  min-height: 500px;
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fvecteezy_abstract-orange-fluid-wave-background_.jpg?alt=media&token=bb03a23c-6e9d-4b82-b9b9-123f58c353c4");
-}
-
-#card-2 {
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fvecteezy_abstract-blue-gradient-fluid-background_6736876.jpg?alt=media&token=b9c03862-0d66-4c04-8fbd-9305742ccad9");
+.card-1 {
+  height: 20vh;
 }
