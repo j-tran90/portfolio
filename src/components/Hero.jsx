@@ -44,7 +44,12 @@ function Hero() {
               <h1>Hi, I'm </h1>
               <div className="display-1 fw-bolder ">John Tran</div>
               <p className="lead">A Full Stack Web Developer.</p>
-              <a className="btn btn-light" href="/about" role="button">
+              <a
+                className="btn btn-light"
+                href="/about"
+                role="button"
+                style={{ zIndex: "1", position: "relative" }}
+              >
                 About Me
               </a>
               <div></div>
