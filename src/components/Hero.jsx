@@ -35,9 +35,9 @@ function Hero() {
             />
             <div className="carousel-caption">
               <h1>Hi, I'm </h1>
-              <h1 className="display-1 fw-bolder">John Tran</h1>
+              <div className="display-1 fw-bolder">John Tran</div>
               <p className="lead">A Full Stack Web Developer.</p>
-              <a className="btn btn-primary" href="/About" role="button">
+              <a className="btn btn-light" href="/about" role="button">
                 About Me
               </a>
               <div></div>
@@ -52,8 +52,17 @@ function Hero() {
               title="Gold Vectors by Vecteezy"
             />
             <div className="carousel-caption d-md-block">
-              <h1 className="display-1 fw-bolder">Stack Used Here</h1>
-              <p>
+              <div
+                className="container"
+                style={{
+                  borderRadius: "20px",
+                  border: "3px solid white",
+                  maxWidth: "700px",
+                  padding: "20px",
+                  backgroundColor: "#1b1b1b",
+                }}
+              >
+                <div className="display-1 fw-bolder pb-2">Created With</div>
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
                   alt="..."
@@ -74,11 +83,16 @@ function Hero() {
                   alt="..."
                   className="stack"
                 />
-              </p>
+              </div>
+
               <div className="py-2 pagespeed">
                 <img
                   src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fpagespeed.png?alt=media&token=61849281-ebc3-4f4b-9d2b-efeca0999f2f"
                   alt="..."
+                  style={{
+                    borderRadius: "20px",
+                    border: "3px solid white",
+                  }}
                 />
               </div>
             </div>

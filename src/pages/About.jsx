@@ -11,14 +11,16 @@ function About() {
         </div>
         <i className="bi bi-chat-square-dots-fill display-6"></i>
         <ul>
-          My name is <strong>John Tran</strong> and I am full stack developer. I
-          graduated Centennial College for Software Engineering Technician. I
-          currently live in Windsor, Ontario, and have lived here for 23 years.
-          I worked as a broker in the Property & Casualty insurance for 7 years.
-          Throughout my years in the insurance industry, I've noticed the
-          fastest growing companies are the ones that utilizes modern
-          technology. This realization motivated me to pursue a career in web
-          and software development.
+          <li>
+            My name is <strong>John Tran</strong> and I am full stack developer.
+            I graduated Centennial College for Software Engineering Technician.
+            I currently live in Windsor, Ontario, and have lived here for 23
+            years. I worked as a broker in the Property & Casualty insurance for
+            7 years. Throughout my years in the insurance industry, I've noticed
+            the fastest growing companies are the ones that utilizes modern
+            technology. This realization motivated me to pursue a career in web
+            and software development.
+          </li>
         </ul>
 
         <div className="pb-5 pt-5">
