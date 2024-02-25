@@ -1,14 +1,20 @@
+import { useEffect, useState } from "react";
 import "../stylesheets/Loader.css";
 
 export default function Loader() {
-  window.addEventListener("load", () => {
-    const loader = document.querySelector(".loader");
+  const [isLoading, setIsLoading] = useState("");
 
-    loader.classList.add("loader-hidden");
-    loader.addEventListener("transitioned", () => {
-      document.body.removeChild("loader");
-    });
-  });
+  useEffect(() => {
+    setIsLoading(
+      window.addEventListener("load", () => {
+        const loader = document.querySelector(".loader");
+        loader.classList.add("loader-hidden");
+        loader.addEventListener("transitioned", () => {
+          document.body.removeChild("loader");
+        });
+      })
+    );
+  }, []);
   return (
     <>
       <div className="loader"></div>
