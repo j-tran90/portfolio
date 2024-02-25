@@ -10,27 +10,27 @@ export default function Couriertek() {
     <div className="container-fluid bg-light pb-5">
       <div className="container">
         <div className="display-1 pt-3 pt-md-5 pb-3 pb-md-5">CourierTek</div>
-        <p className="display-6 pb-2">Overview</p>
-        <p>
-          <ul>
-            The client requested a lightweight webpage that will serve to
-            promote the brand and product for when the application launches. I
-            worked together with the client on how to layout the products
-            information. I was also tasked to write out the product description
-            receiving a thorough demo of the product. It was important to the
-            client that the webpage is optimized for at least mobile usuage
-            since CourierTek itself is a mobile-first platform.
-          </ul>
-          <div className="text-center p-5">
-            <a
-              type="button"
-              className="btn btn-warning fw-bold"
-              href="                https://glamorous-tan-slacks.cyclic.app/"
-            >
-              Visit CourierTek
-            </a>
-          </div>
-        </p>
+        <div className="display-6 pb-4">Overview</div>
+
+        <ul>
+          The client requested a lightweight webpage that will serve to promote
+          the brand and product for when the application launches. I worked
+          together with the client on how to layout the products information. I
+          was also tasked to write out the product description receiving a
+          thorough demo of the product. It was important to the client that the
+          webpage is optimized for at least mobile usuage since CourierTek
+          itself is a mobile-first platform.
+        </ul>
+        <div className="text-center p-5">
+          <a
+            type="button"
+            className="btn btn-warning fw-bold"
+            href="                https://glamorous-tan-slacks.cyclic.app/"
+          >
+            Visit CourierTek
+          </a>
+        </div>
+
         <p className="display-6 pb-2">Technology Stack</p>
         <div className="row">
           <div className="col text-center">

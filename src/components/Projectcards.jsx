@@ -41,7 +41,7 @@ function ProjectCards() {
               <h5 className="display-4 card-title">SeaShell</h5>
               <p className="card-text">
                 A light chat application. A solo full stack project using React,
-                Javascript, Boostrap, and Firebase
+                Javascript, Boostrap, and Firebase.
               </p>
               <a className="btn btn-info" href="/seashell" role="button">
                 See More
@@ -67,16 +67,53 @@ function ProjectCards() {
                 A freelance project taking on client's request to create a
                 simple static webpage to showcase an imported vehicle.
               </p>
-              <a className="btn btn-danger" href="/nhoracing" role="button">
+              <a
+                className="btn btn-danger my-2"
+                href="/nhoracing"
+                role="button"
+              >
                 More Details
               </a>
               <a
-                className="btn btn-danger mx-2"
+                className="btn btn-danger mx-2 "
                 href="https://nhoracing.vercel.app/"
                 role="button"
               >
                 Visit Nho Racing
               </a>
+            </div>
+          </div>
+          <div className="card">
+            <img
+              className="card-img-top"
+              src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fcalorator.png?alt=media&token=bd3dee5a-dadd-4638-9115-33deff977b71"
+              alt="Card image cap"
+            />
+            <div className="card-body">
+              <h5 className="display-4 card-title">Calorator</h5>
+              <p className="card-text">
+                Calorie tracker. A solo full stack project using React,
+                Javascript, and Firebase.
+              </p>
+              <div className="align-items-end">
+                <a
+                  className="btn"
+                  style={{ background: "rgb(43, 187, 127)", color: "white" }}
+                  href="/"
+                  role="button"
+                  disabled={true}
+                >
+                  More Details
+                </a>
+                <a
+                  className="btn mx-2"
+                  style={{ background: "rgb(43, 187, 127)", color: "white" }}
+                  href="https://calorator.vercel.app/"
+                  role="button"
+                >
+                  Visit Calorator
+                </a>
+              </div>
             </div>
           </div>
         </div>

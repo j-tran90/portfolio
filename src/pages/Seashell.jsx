@@ -14,24 +14,22 @@ export default function Seashell() {
     <div className="container-fluid bg-light pb-5">
       <div className="container">
         <div className="display-1 pt-3 pt-md-5 pb-3 pb-md-5">SeaShell</div>
-        <p className="display-6 pb-2">Overview</p>
-        <p>
-          <ul>
-            A simple open chat application design to be step stones for a more
-            intricate chat application. The goal is to expand the chat to allow
-            group conversations. The objective is to keep it lightweight so that
-            it can be integrated into a larger application.
-          </ul>
-          <div className="text-center p-5">
-            <a
-              type="button"
-              className="btn btn-primary fw-bold"
-              href="https://seashell.vercel.app/"
-            >
-              Visit SeaShell
-            </a>
-          </div>
-        </p>
+        <div className="display-6 pb-4">Overview</div>
+        <ul>
+          A simple open chat application design to be step stones for a more
+          intricate chat application. The goal is to expand the chat to allow
+          group conversations. The objective is to keep it lightweight so that
+          it can be integrated into a larger application.
+        </ul>
+        <div className="text-center p-5">
+          <a
+            type="button"
+            className="btn btn-primary fw-bold"
+            href="https://seashell.vercel.app/"
+          >
+            Visit SeaShell
+          </a>
+        </div>
         <p className="display-6 pb-2">Technology Stack</p>
         <div className="row">
           <div className="col text-center">

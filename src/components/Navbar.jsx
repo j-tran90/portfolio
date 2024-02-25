@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../stylesheets/Navbar.css";
 import Navlinks from "./Navlinks";
 import Socials from "./Socials";
@@ -5,14 +6,14 @@ import Socials from "./Socials";
 function NavBar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light pb-4">
+      <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container navbar-custom">
-          <a className="navbar-brand" href="/">
+          <Link as={Link} to="/" className="navbar-brand">
             <img
               src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Flogo5.png?alt=media&token=5b13bb75-871f-422b-8c01-d84dc305b155"
               alt=""
             />
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"

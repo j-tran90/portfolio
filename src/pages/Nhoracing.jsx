@@ -10,24 +10,24 @@ export default function Nhoracing() {
     <div className="container-fluid bg-light pb-5">
       <div className="container">
         <div className="display-1 pt-3 pt-md-5 pb-3 pb-md-5">Nho Racing</div>
-        <p className="display-6 pb-2">Overview</p>
-        <p>
-          <ul>
-            A freelance project that was commissioned to design an attractive
-            static webpage to promote the brand's shop and social media. The
-            goal is to eventually make it a hub for other social media platform
-            for the client.
-          </ul>
-          <div className="text-center p-5">
-            <a
-              type="button"
-              className="btn btn-danger fw-bold"
-              href="https://nhoracing.vercel.app/"
-            >
-              Visit Nho Racing
-            </a>
-          </div>
-        </p>
+        <div className="display-6 pb-4">Overview</div>
+
+        <ul>
+          A freelance project that was commissioned to design an attractive
+          static webpage to promote the brand's shop and social media. The goal
+          is to eventually make it a hub for other social media platform for the
+          client.
+        </ul>
+        <div className="text-center p-5">
+          <a
+            type="button"
+            className="btn btn-danger fw-bold"
+            href="https://nhoracing.vercel.app/"
+          >
+            Visit Nho Racing
+          </a>
+        </div>
+
         <p className="display-6 pb-2">Technology Stack</p>
         <div className="row">
           <div className="col text-center">

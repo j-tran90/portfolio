@@ -1,41 +1,44 @@
+import { Link } from "react-router-dom";
+
 export default function Navlinks() {
   return (
     <>
       <div className="navbar-nav ">
         <li className="nav-item dropdown ">
-          <a
+          <Link
+            as={Link}
+            to="#"
             className="nav-link dropdown-toggle active"
-            href="#"
             id="navbarDropdownMenuLink"
             role="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"
           >
             Projects
-          </a>
+          </Link>
           <ul
             className="dropdown-menu"
             aria-labelledby="navbarDropdownMenuLink"
           >
             <li>
-              <a className="dropdown-item" href="/couriertek">
+              <Link as={Link} to="/couriertek" className="dropdown-item">
                 CourierTek
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="dropdown-item" href="/seashell">
+              <Link as={Link} to="/seashell" className="dropdown-item">
                 Sea Shell
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="dropdown-item" href="/nhoracing">
+              <Link as={Link} to="/nhoracing" className="dropdown-item">
                 Nho Racing
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="dropdown-item disabled" href="#">
+              <Link as={Link} to="#" className="dropdown-item disabled">
                 Tix
-              </a>
+              </Link>
             </li>
           </ul>
         </li>
