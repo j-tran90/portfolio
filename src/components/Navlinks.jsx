@@ -3,13 +3,13 @@ import { HashLink as Link } from "react-router-hash-link";
 export default function Navlinks() {
   return (
     <>
-      <div className="navbar-nav ">
+      <div className="navbar-nav nav-custom">
         <ul>
           <li className="nav-item dropdown ">
             <Link
               as={Link}
               to="#"
-              className="nav-link dropdown-toggle active"
+              className="nav-link dropdown-toggle active "
               id="navbarDropdownMenuLink"
               role="button"
               data-bs-toggle="dropdown"

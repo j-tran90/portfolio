@@ -1,8 +1,10 @@
 import "../stylesheets/About.css";
+import Loader from "../components/Loader";
 
 function About() {
   return (
     <>
+      <Loader />
       <div className="container">
         <div className="display-1 text-center p-5">About Me</div>
         <p>
