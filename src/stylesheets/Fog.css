@@ -21,7 +21,7 @@
 }
 
 .fog-img-first {
-  background: url("D:\Projects\portfolio\src\assets\fog-1.png");
+  background: url("https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Ffog-1.png?alt=media&token=91290255-3812-42bc-bcf9-2a81d62e1551");
   background-repeat: repeat-x;
   background-size: contain;
   background-position: center;
@@ -29,7 +29,7 @@
 }
 
 .fog-img-second {
-  background: url("D:\Projects\portfolio\src\assets\fog-2.png");
+  background: url("https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Ffog-2.png?alt=media&token=1a3e56b0-4ddc-4ca3-a114-00efe84c3374");
   background-repeat: repeat-x;
   background-size: contain;
   background-position: center;
