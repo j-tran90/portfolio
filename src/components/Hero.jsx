@@ -56,22 +56,31 @@ function Hero() {
               <p>
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
+                  alt="..."
                   className="stack"
                 />
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                  alt="..."
                   className="stack"
                 />
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                  alt="..."
                   className="stack"
                 />
-
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                  alt="..."
                   className="stack"
                 />
               </p>
+              <div className="py-2 pagespeed">
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Fpagespeed.png?alt=media&token=61849281-ebc3-4f4b-9d2b-efeca0999f2f"
+                  alt="..."
+                />
+              </div>
             </div>
           </div>
         </div>
