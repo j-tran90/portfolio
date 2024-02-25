@@ -6,8 +6,11 @@ function About() {
     <>
       <Loader />
       <div className="container">
-        <div className="display-1 text-center p-5">About Me</div>
-        <p>
+        <div className="display-1 text-center p-5">
+          About Me <i className="bi bi-arrow-down-right-square display-6"></i>
+        </div>
+        <i className="bi bi-chat-square-dots-fill display-6"></i>
+        <ul>
           My name is <strong>John Tran</strong> and I am full stack developer. I
           graduated Centennial College for Software Engineering Technician. I
           currently live in Windsor, Ontario, and have lived here for 23 years.
@@ -16,7 +19,7 @@ function About() {
           fastest growing companies are the ones that utilizes modern
           technology. This realization motivated me to pursue a career in web
           and software development.
-        </p>
+        </ul>
 
         <div className="pb-5 pt-5">
           <div className="circular--portrait center--portrait">

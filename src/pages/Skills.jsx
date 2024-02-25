@@ -4,7 +4,9 @@ function Skills() {
   return (
     <>
       <div className="container-fluid bg-light">
-        <h1 className="display-1 text-center container p-5">Skills</h1>
+        <div className="display-1 text-center container p-5">
+          Skills <i className="bi bi-arrow-down-right-square display-6"></i>
+        </div>
         <div className="container bg-light pb-5">
           <div className="row row-cols-xl-6">
             <div className="col-4 col-md-3 p-4 grow brighten">

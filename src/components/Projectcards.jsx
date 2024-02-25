@@ -1,11 +1,12 @@
-import { Link } from "react-router-dom";
 import "../stylesheets/Projectcards.css";
 
 function ProjectCards() {
   return (
     <>
       <div className="container-fluid pb-5">
-        <div className="container p-5 display-1 text-center">Portfolio</div>
+        <div className="container p-5 display-1 text-center">
+          Portfolio <i className="bi bi-arrow-down-right-square display-6"></i>
+        </div>
 
         <div className="card-group">
           <div className="card">
