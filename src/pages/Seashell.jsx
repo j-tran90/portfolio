@@ -27,7 +27,7 @@ export default function Seashell() {
             className="btn btn-primary fw-bold"
             href="https://seashell.vercel.app/"
           >
-            Visit SeaShell
+            Go to SeaShell
           </a>
         </div>
         <p className="display-6 pb-2">Technology Stack</p>

@@ -20,14 +20,14 @@ function ProjectCards() {
                 all types and sizes.
               </p>
               <a className="btn btn-warning" href="/couriertek" role="button">
-                See More
+                Tech Stack
               </a>
               <a
                 className="btn btn-warning mx-2"
                 href="              https://glamorous-tan-slacks.cyclic.app/"
                 role="button"
               >
-                Visit CourierTek
+                Go to CourierTek
               </a>
             </div>
           </div>
@@ -44,14 +44,14 @@ function ProjectCards() {
                 Javascript, Boostrap, and Firebase.
               </p>
               <a className="btn btn-info" href="/seashell" role="button">
-                See More
+                Tech Stack
               </a>
               <a
                 className="btn btn-info mx-2"
                 href="https://seashell.vercel.app/"
                 role="button"
               >
-                Visit SeaShell
+                Go to SeaShell
               </a>
             </div>
           </div>
@@ -72,14 +72,14 @@ function ProjectCards() {
                 href="/nhoracing"
                 role="button"
               >
-                More Details
+                Tech Stack
               </a>
               <a
                 className="btn btn-danger mx-2 "
                 href="https://nhoracing.vercel.app/"
                 role="button"
               >
-                Visit Nho Racing
+                Go to Nho Racing
               </a>
             </div>
           </div>
@@ -102,14 +102,14 @@ function ProjectCards() {
                   role="button"
                   disabled={true}
                 >
-                  More Details
+                  Tech Stack
                 </a>
                 <a
                   className="btn btn-success mx-2"
                   href="https://calorator.vercel.app/"
                   role="button"
                 >
-                  Visit Calorator
+                  Go to Calorator
                 </a>
               </div>
             </div>

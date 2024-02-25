@@ -24,7 +24,7 @@ export default function Nhoracing() {
             className="btn btn-danger fw-bold"
             href="https://nhoracing.vercel.app/"
           >
-            Visit Nho Racing
+            Go to Nho Racing
           </a>
         </div>
 

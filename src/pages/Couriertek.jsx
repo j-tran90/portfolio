@@ -27,7 +27,7 @@ export default function Couriertek() {
             className="btn btn-warning fw-bold"
             href="                https://glamorous-tan-slacks.cyclic.app/"
           >
-            Visit CourierTek
+            Go to CourierTek
           </a>
         </div>
 
