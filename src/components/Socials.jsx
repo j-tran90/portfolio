@@ -6,6 +6,8 @@ export default function Socials() {
           <a className="nav-link px-2" href="https://github.com/j-tran90">
             <img
               className="socials"
+              aria-label="GitHub"
+              title="GitHub"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
             />
           </a>
@@ -17,6 +19,8 @@ export default function Socials() {
           >
             <img
               className="socials"
+              aria-label="LinkedIn"
+              title="LinkedIn"
               src="
                   https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"
             />

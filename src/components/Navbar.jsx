@@ -8,7 +8,7 @@ function NavBar() {
     <>
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container navbar-custom">
-          <Link as={Link} to="/" className="navbar-brand">
+          <Link as={Link} to="/" aria-label="Home" className="navbar-brand">
             <img
               src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Flogo5.png?alt=media&token=5b13bb75-871f-422b-8c01-d84dc305b155"
               alt=""

@@ -14,7 +14,7 @@ function ProjectCards() {
               alt="Card image cap"
             />
             <div className="card-body">
-              <h1 className="display-4 card-title">CourierTek</h1>
+              <div className="display-4 card-title">CourierTek</div>
               <p className="card-text">
                 A Free lance project. A courier tracking solution for business
                 all types and sizes.
@@ -38,7 +38,7 @@ function ProjectCards() {
               alt="Card image cap"
             />
             <div className="card-body">
-              <h5 className="display-4 card-title">SeaShell</h5>
+              <div className="display-4 card-title">SeaShell</div>
               <p className="card-text">
                 A light chat application. A solo full stack project using React,
                 Javascript, Boostrap, and Firebase.
@@ -62,7 +62,7 @@ function ProjectCards() {
               alt="Card image cap"
             />
             <div className="card-body">
-              <h5 className="display-4 card-title">Nho Racing</h5>
+              <div className="display-4 card-title">Nho Racing</div>
               <p className="card-text">
                 A freelance project taking on client's request to create a
                 simple static webpage to showcase an imported vehicle.
@@ -90,15 +90,14 @@ function ProjectCards() {
               alt="Card image cap"
             />
             <div className="card-body">
-              <h5 className="display-4 card-title">Calorator</h5>
+              <div className="display-4 card-title">Calorator</div>
               <p className="card-text">
                 Calorie tracker. A solo full stack project using React,
                 Javascript, and Firebase.
               </p>
               <div className="align-items-end">
                 <a
-                  className="btn"
-                  style={{ background: "rgb(43, 187, 127)", color: "white" }}
+                  className="btn btn-success"
                   href="/"
                   role="button"
                   disabled={true}
@@ -106,8 +105,7 @@ function ProjectCards() {
                   More Details
                 </a>
                 <a
-                  className="btn mx-2"
-                  style={{ background: "rgb(43, 187, 127)", color: "white" }}
+                  className="btn btn-success mx-2"
                   href="https://calorator.vercel.app/"
                   role="button"
                 >
