@@ -41,9 +41,16 @@ function Hero() {
               </div>
             </section>
             <div className="carousel-caption">
-              <h1>Hi, I'm </h1>
-              <div className="display-1 fw-bolder ">John Tran</div>
-              <p className="lead">A Full Stack Web Developer.</p>
+              <h1 style={{ zIndex: "2", position: "relative" }}>Hi, I'm </h1>
+              <div
+                className="display-1 fw-bolder"
+                style={{ zIndex: "2", position: "relative" }}
+              >
+                John Tran
+              </div>
+              <p className="lead" style={{ zIndex: "2", position: "relative" }}>
+                A Full Stack Web Developer.
+              </p>
               <a
                 className="btn btn-light"
                 href="/about"
