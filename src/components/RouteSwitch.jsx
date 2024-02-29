@@ -8,6 +8,7 @@ import Footer from "../components/Footer";
 import Couriertek from "../pages/Couriertek";
 import Nhoracing from "../pages/Nhoracing";
 import Seashell from "../pages/Seashell";
+import Calorator from "../pages/Calorator";
 
 const RouteSwitch = () => {
   return (
@@ -24,6 +25,7 @@ const RouteSwitch = () => {
             <Route path="/couriertek" element={<Couriertek />} />
             <Route path="/nhoracing" element={<Nhoracing />} />
             <Route path="/seashell" element={<Seashell />} />
+            <Route path="/calorator" element={<Calorator />} />
           </Routes>
         </main>
         <Footer />

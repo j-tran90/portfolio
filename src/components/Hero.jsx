@@ -41,21 +41,33 @@ function Hero() {
               </div>
             </section>
             <div className="carousel-caption">
-              <h1 style={{ zIndex: "2", position: "relative" }}>Hi, I'm </h1>
               <div
-                className="display-1 fw-bolder"
+                className="display-1"
+                style={{ zIndex: "2", position: "relative" }}
+              >
+                Hi, I'm{" "}
+              </div>
+              <div
+                className="display-1 fw-bold"
                 style={{ zIndex: "2", position: "relative" }}
               >
                 John Tran
               </div>
-              <p className="lead" style={{ zIndex: "2", position: "relative" }}>
+              <div
+                className="lead"
+                style={{ zIndex: "2", position: "relative" }}
+              >
                 A Full Stack Web Developer.
-              </p>
+              </div>
               <a
                 className="btn btn-light"
                 href="/about"
                 role="button"
-                style={{ zIndex: "1", position: "relative" }}
+                style={{
+                  zIndex: "1",
+                  position: "relative",
+                  marginTop: "30px",
+                }}
               >
                 About Me
               </a>
@@ -79,7 +91,7 @@ function Hero() {
 
             <div className="carousel-caption carousel-caption-two d-md-block">
               <div className="container stack-box">
-                <div className="display-1 fw-bolder pb-2">Created With</div>
+                <div className="display-1 pb-2">Created With</div>
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
                   alt="..."

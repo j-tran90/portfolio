@@ -9,8 +9,7 @@ function Home() {
     <>
       <Loader />
       <Hero />
-
-      <div id="projects">
+      <div id="portfolio">
         <ProjectCards />
       </div>
       <div id="skills">

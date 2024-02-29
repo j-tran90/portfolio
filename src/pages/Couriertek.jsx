@@ -21,6 +21,10 @@ export default function Couriertek() {
           webpage is optimized for at least mobile usuage since CourierTek
           itself is a mobile-first platform.
         </ul>
+        <div className="display-6 pb-4">Completion Status: </div>
+        <ul>On hold - Satisfactory</ul>
+        <div className="display-6 pb-4">Testing Status:</div>
+        <ul>Passed - Bugs noted</ul>
         <div className="text-center p-5">
           <a
             type="button"

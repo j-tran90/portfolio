@@ -9,7 +9,7 @@ export default function Socials() {
             aria-label="github"
             title="Visit My GitHub Page"
           >
-            <i className="bi bi-github socials"></i>
+            <i className="bi bi-github socials social-icons"></i>
           </a>
         </div>
         <div className="col">
@@ -19,9 +19,11 @@ export default function Socials() {
             aria-label="linkedin"
             title="Visit My LinkedIn Page"
           >
-            <i className="bi bi-linkedin socials"></i>
+            <i className="bi bi-linkedin socials social-icons"></i>
           </a>
         </div>
+        <div className="col"></div>
+        <div className="col"></div>
       </div>
     </>
   );

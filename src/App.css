@@ -29,6 +29,10 @@ a {
   color: white;
 }
 
+i::before {
+  color: black;
+}
+
 ul {
   list-style-type: none;
   margin-left: 0;

@@ -1,3 +1,4 @@
+import { HashLink as Link } from "react-router-hash-link";
 import "../stylesheets/Projectcards.css";
 import "../stylesheets/Skills.css";
 
@@ -6,7 +7,10 @@ function ProjectCards() {
     <>
       <div className="container-fluid pb-5">
         <div className="container p-5 display-1 text-center">
-          Portfolio <i className="bi bi-arrow-down-right-square display-6"></i>
+          Portfolio{" "}
+          <Link to="/#portfolio">
+            <i className="bi bi-arrow-down-right-square display-6"></i>
+          </Link>
         </div>
 
         <div className="card-group">
@@ -116,14 +120,14 @@ function ProjectCards() {
                 Javascript, and Firebase.
               </p>
               <div className="align-items-end">
-                {/* <a
-                  to="#"
-                  className="btn btn-success mx-2"
+                <a
+                  href="/calorator"
+                  className="btn btn-success my-2 mx-2"
                   role="button"
                   disabled
                 >
                   Tech Stack
-                </a> */}
+                </a>
                 <a
                   href="https://calorator.vercel.app/"
                   className="btn btn-success my-2 mx-2"

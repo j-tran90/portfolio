@@ -10,7 +10,7 @@ function NavBar() {
         <div className="container navbar-custom">
           <Link to="/" aria-label="Home" className="navbar-brand">
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Flogo5.png?alt=media&token=5b13bb75-871f-422b-8c01-d84dc305b155"
+              src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/portfolio%2Flogo5.webp?alt=media&token=92f9898a-457b-4886-a807-b0d82704fc7b"
               alt="..."
             />
           </Link>

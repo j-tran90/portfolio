@@ -18,6 +18,10 @@ export default function Nhoracing() {
           is to eventually make it a hub for other social media platform for the
           client.
         </ul>
+        <div className="display-6 pb-4">Completion Status: </div>
+        <ul>MVP - Satisfactory</ul>
+        <div className="display-6 pb-4">Testing Status:</div>
+        <ul>Passed - various UI bugs logged</ul>
         <div className="text-center p-5">
           <a
             type="button"

@@ -22,7 +22,9 @@ export default function Loader() {
   return (
     <>
       {isLoading ? (
-        <div className="loader"></div>
+        <>
+          <div className="loader"></div>
+        </>
       ) : (
         <div className="loader-hidden"></div>
       )}
