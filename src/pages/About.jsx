@@ -1,4 +1,3 @@
-import { HashLink as Link } from "react-router-hash-link";
 import "../stylesheets/About.css";
 import Loader from "../components/Loader";
 
@@ -8,10 +7,7 @@ function About() {
       <Loader />
       <div className="container">
         <div className="display-1 text-center p-5">
-          About Me{" "}
-          <Link to="/#about">
-            <i className="bi bi-arrow-down-right-square display-6"></i>
-          </Link>
+          About Me <i className="bi bi-arrow-down-right-square display-6"></i>
         </div>
         <i className="bi bi-chat-square-dots-fill display-6"></i>
         <ul>

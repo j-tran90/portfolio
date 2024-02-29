@@ -1,4 +1,3 @@
-import { HashLink as Link } from "react-router-hash-link";
 import "../stylesheets/Projectcards.css";
 import "../stylesheets/Skills.css";
 
@@ -7,10 +6,7 @@ function ProjectCards() {
     <>
       <div className="container-fluid pb-5">
         <div className="container p-5 display-1 text-center">
-          Portfolio{" "}
-          <Link to="/#portfolio">
-            <i className="bi bi-arrow-down-right-square display-6"></i>
-          </Link>
+          Portfolio <i className="bi bi-arrow-down-right-square display-6"></i>
         </div>
 
         <div className="card-group">

@@ -1,4 +1,3 @@
-import { HashLink as Link } from "react-router-hash-link";
 import "../stylesheets/Skills.css";
 
 function Skills() {
@@ -6,10 +5,7 @@ function Skills() {
     <>
       <div className="container-fluid bg-light">
         <div className="display-1 text-center container p-5">
-          Skills{" "}
-          <Link to="/#skills">
-            <i className="bi bi-arrow-down-right-square display-6"></i>
-          </Link>
+          Skills <i className="bi bi-arrow-down-right-square display-6"></i>
         </div>
         <div className="container bg-light pb-5">
           <div className="row row-cols-xl-6">
